@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(yellow,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: myscale 5s ease 0s 1  running ;
+
+    }
+    h1{
+        color: darkorange;
+        font-size: 100px;
+        text-align: center;
+        text-decoration: wavy;
+        text-shadow: 10px 5px 5px rgb(245, 231, 220);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: wavy underline;
+    }   
+     #ttk{
+        color: rgb(139, 121, 103);
+        font-size: 45px;
+        text-align: center;
+        text-decoration: wavy;
+        text-shadow: 10px 5px 5px rgb(228, 178, 134);
+        font-family: cursive;
+
+     }
+     p{color: black;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: wavy;
+        text-shadow: 10px 5px 5px rgb(228, 178, 134);
+        font-family: cursive;
+        border-top-style: inset;
+        border-bottom-style: outset;
+        border-radius: 200px;
+        border-color: darkkhaki;
+        background-image: url("meliodas.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    @keyframes myscale {
+        50%{transform: scale(0.5,0.5);}
+      
+        
+    }
+    #tts{
+        font-size: 20px;
+        text-align: right;
+        text-decoration: wavy;
+        text-shadow: 10px 5px 5px rgb(228, 178, 134);
+        font-family: cursive;
+    }
+    #zz{
+        margin: auto;
+        display: block;
+    }
+    #tt{
+        margin: auto;
+        display: block;
+
+    }
+    title{
+        color: bisque;
+    }
+    
+   
