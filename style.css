@@ -49,15 +49,11 @@ body{
         text-shadow: 10px 5px 5px rgb(228, 178, 134);
         font-family: cursive;
     }
-    #zz{
+    #mp3_play_photo , #music{
         margin: auto;
         display: block;
     }
-    #tt{
-        margin: auto;
-        display: block;
-
-    }
+   
     title{
         color: bisque;
     }
