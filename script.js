@@ -7,6 +7,7 @@ play_button.addEventListener("click",()=>{
         play_photo.src="play_music.jpg";
     }
     else{
+        console.log("PAUSE");
         music.pause();
         play_photo.src="video-play.png";
     }
